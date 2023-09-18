@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Rubik } from 'next/font/google'
 import Navbar from './Components/Navbar/Navbar'
 import Providers from './Provider/Provider'
+import Footer from './Components/Footer'
 
 
 const inter = Rubik({ subsets: ['latin'] })
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Providers>
             <Navbar />
             {children}
+            <Footer/>
         </Providers>
       </body>
     </html>
