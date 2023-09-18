@@ -76,8 +76,8 @@ const CartPage = () => {
             </section>
           </main>
         </section >
-        : <section className='w-full height grid place-items-center'>
-          <h2 className='w-fit text-[2rem] font-bold'>Shopping Cart is empty</h2>
+        : <section className='w-full height grid place-items-center px-6'>
+          <h2 className='w-fit text-[2rem] font-bold text-center'>Shopping Cart is empty</h2>
         </section>
       }
     </div>
