@@ -49,7 +49,7 @@ const Footer = () => {
                 <main className='flex w-[80rem] max-[1283px]:w-full justify-between flex-wrap gap-4 max-[540px]:flex-col max-[540px]:w-fit  p-[2rem]'>
                     <div>Copyright &copy; 2023 Dine Market</div>
                     <div>Design by. <strong>Weird Design Studio</strong></div>
-                    <div>Code by. <strong>shabrina12 on github</strong></div>
+                    <div>Code by. <strong>Muhammad Ashar</strong></div>
                 </main>
             </div>
         </footer>
